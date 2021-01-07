@@ -1,5 +1,5 @@
-# Angular.js
-**Holiday Card Maker 	:love_letter:**
+# Angular.js Project
+## **Holiday Card Maker 	:love_letter:** ##
 
 * Developed **a mobile web-based application** that includes three dropdown boxes, allowing users to
 select words, a border colour and edge type for creating a holiday card.<br>
