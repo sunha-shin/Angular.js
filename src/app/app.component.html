@@ -1,0 +1,44 @@
+<div id="card">
+  <h4>{{cardSelect.holiday.season}}</h4>
+  <div id="flexBox">
+    <mat-form-field appearance="fill" class="flex1" 
+                    style="background-color: aquamarine;">
+      <mat-label>Select your greeting:</mat-label>
+      <mat-select [(value)]="selectionGreet">
+        <mat-option *ngFor="let greet of greetSelect" [value]="greet.txt">
+          {{greet.txt}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="flex2"
+                    style="background-color: aquamarine;">
+      <mat-label>Select a border colour:</mat-label>
+      <mat-select [(value)] = "selectionBorder">
+        <mat-option *ngFor="let border of borderSelect" [value]="border.colour">
+          {{border.colour}}
+        </mat-option>
+      </mat-select>  
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="flex3"
+                    style="background-color: aquamarine;">
+      <mat-label>Select an edge type:</mat-label>
+      <mat-select [(value)]="selectionEdge">
+        <mat-option *ngFor="let edge of bEdgeSelect" [value]="edge.edge">
+          {{edge.edge}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <p class="output">
+    You selected a greeting of {{selectionGreet | uppercase}} with a {{selectionBorder | uppercase}} border with {{selectionEdge | uppercase}} edges
+  </p>
+  <hr>
+  <button mat-raised-button (click)="createCard()">
+    Click to create card
+  </button>
+  <hr>
+  <p [innerHTML]="outCard" id="outid">
+    
+  </p>
+</div>
