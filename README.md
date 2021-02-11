@@ -2,9 +2,8 @@
 <br>
 
 ## Overview
-A movie nomination application using Javascript that allows users to save their favourite films they feel should be up for nomination. They can select five nominees maximum.
+A mobile web-based application that includes three dropdown boxes, allowing users to select words, a border colour and edge type for creating a holiday card.
 
-## Functionalities
 **1. Search and display films:**<br>
 Search result comes from OMDB's API. Each search result lists title, year of release and a button to nominate that film.
 
