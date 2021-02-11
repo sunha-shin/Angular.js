@@ -1,5 +1,4 @@
 # :love_letter: Holiday card maker - Preview (gif)
-![MovieNomi2](https://user-images.githubusercontent.com/47774611/107603733-b1ddd280-6bfb-11eb-83aa-3dfe26205297.gif)
 <br>
 ## Overview
 A movie nomination application using Javascript that allows users to save their favourite films they feel should be up for nomination. They can select five nominees maximum.
